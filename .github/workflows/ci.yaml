@@ -63,4 +63,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: asd0988699887/cicd-example:latest
+          tags: asd0988699887/123:tagname
