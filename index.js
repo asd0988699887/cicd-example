@@ -1,7 +1,7 @@
 const http = require('http')
 const query_string = require('querystring')
 const multiplication = require('./multiplication')
-
+const a =1
 const demo_server = http.createServer(function(request, response) {
   console.dir(request.param)
   if (request.method == 'POST') {
